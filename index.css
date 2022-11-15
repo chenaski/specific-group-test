@@ -343,7 +343,7 @@ ul {
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   background: #f7f7f7;
   border-radius: var(--border-radius);
   padding-inline: 16px;
