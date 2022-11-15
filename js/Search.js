@@ -10,17 +10,13 @@ export class Search {
     this.form = form;
     this.input = input;
 
-    if (onSubmit) {
-      this.form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        onSubmit(this.getValue());
-      });
-    }
+    this.form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      onSubmit && onSubmit(this.getValue());
+    });
 
-    if (onChange) {
-      this.input.addEventListener("input", (e) => {
-        onChange(this.getValue());
-      });
-    }
+    this.input.addEventListener("input", (e) => {
+      onChange && onChange(this.getValue());
+    });
   }
 }
