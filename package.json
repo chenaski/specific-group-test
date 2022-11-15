@@ -1,0 +1,15 @@
+{
+  "name": "specific-group-test",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Eugene Boruhov",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "stylelint": "^14.15.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
