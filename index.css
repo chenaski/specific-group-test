@@ -350,6 +350,10 @@ ul {
   font-size: 12px;
 }
 
+.todos__completed-item-text {
+  word-break: break-word;
+}
+
 /* MEDIA */
 
 @media (min-width: 600px) {
